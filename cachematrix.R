@@ -1,7 +1,8 @@
 ## This script describes two functions which demonstrate caching capabilities in R to help
 ## optimize processing by leveraging cache for base information that is used repeatedly as is 
 ## demonstrated in calculating the inverse of a matrix which can be a very costly operation.
-## In this exercise we will create two functions used to cache the inverse of a matrix.
+## Two functions defined will demonstrate caching function 1 creates the special matrix object 
+##  and the second uses cache to compute the inverse of the matrix.
 
 ## Function makeCacheMatrix:This function creates a special "matrix" object that can cache its inverse.
 
